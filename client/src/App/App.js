@@ -1,6 +1,6 @@
 // import './App.css';
 import { Route, Routes } from 'react-router-dom';
-import Dashboard from '../Pages/Dashboard';
+import Home from '../Pages/Home';
 
 
 function App() {
@@ -8,7 +8,7 @@ function App() {
     <div className="App">
       <header className="App-header">
        <Routes>
-       <Route path="/" element={<Dashboard/>}/>
+       <Route path="/" element={<Home/>}/>
        </Routes> 
       </header>
     </div>
