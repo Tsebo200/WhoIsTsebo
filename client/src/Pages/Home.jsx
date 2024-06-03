@@ -1,6 +1,6 @@
 import React from "react";
 import styles from "../Pages/Home.module.scss";
-// import NavBar from "../Component/NavBar/NavBar";
+import NavBar from "../Components/NavBar/NavBar.jsx";
 // import Logo from "../Component/Logo/Logo";
 // import Header from "../Component/Header/Header";
 // import Gallery from "./Gallery";
@@ -8,10 +8,10 @@ import styles from "../Pages/Home.module.scss";
 function Home() {
   return (
     <div>
-      {/* <NavBar />
-      <Logo/>
-      <Header/> */}
-      {/* <Gallery/> */}
+    <NavBar />
+    {/* <Logo/> */}
+    {/* <Header/>  */}
+    {/* <Gallery/>  */}
       <div className={styles.text}>Hello World</div>
     </div>
   );
