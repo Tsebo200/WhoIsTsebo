@@ -1,0 +1,53 @@
+
+
+
+
+.anime_back{
+    width: 1440px;
+    height: 589px;
+    background-image: url('../../Assets/Essentials/Anime_Background.png');
+    background-position: center;
+    background-size: contain;
+    float: left;
+    position: relative;
+    z-index: 2;
+
+}
+
+  .intro{
+    z-index: 3;
+    width: 513px;
+    height: 513px;
+    margin-left: 850px; 
+    margin-top: 112px;
+    position: absolute;
+    background-image: url(../../Assets/Essentials/Intro.png);
+    background-size: cover;
+    float: right;
+  }
+
+
+  
+//   #second {
+//     z-index: 2; 
+//     background-color: #192733;
+//     top: 30px;
+//     left: 30px;
+//   }
+  
+//   #third {
+//     z-index: 1;
+//     background-color: #4FB06D;
+//     top: 50px;
+//     left: 50px;
+//   }
+
+// div {
+//     position: absolute;
+//     width: 75px;
+//     height: 75px;
+//     border-radius: 10px;
+//     color: white;
+//     padding: 5px;
+//     text-align: right;
+//   }
