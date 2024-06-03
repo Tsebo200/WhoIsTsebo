@@ -3,7 +3,7 @@ import styles from "../Pages/Home.module.scss";
 import NavBar from "../Component/NavBar/NavBar";
 import Logo from "../Component/Logo/Logo";
 import Header from "../Component/Header/Header";
-
+import Gallery from "./Gallery";
 
 function Home() {
   return (
@@ -12,7 +12,8 @@ function Home() {
       <NavBar />
       <Logo/>
       <Header/>
-      {/* <div className={styles.tex}>Hello World</div> */}
+      <Gallery/>
+      <div className={styles.text}>Hello World</div>
     </div>
   );
 }

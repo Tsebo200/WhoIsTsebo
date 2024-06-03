@@ -10,13 +10,10 @@ function NavBar() {
     <div className={styles.header}>
     <Logo/>
       <div className={styles.links_container}>
-       <Link to="/#home">Home</Link>
-
-       <div id='nameOfThing'>-Thing you want to scroll to-</div> <a href='#home'>wrap a tag around the clickable that will scroll you there</a> 
-
-        <Link to="/#gallery">Gallery</Link>
-        <Link to="/#allme">All About Me</Link>
-        <Link to="/#test">Test</Link>
+       <Link to="/home">Home</Link>
+        <Link to="/gallery">Gallery</Link>
+        <Link to="/allme">All About Me</Link>
+        <Link to="/test">Test</Link>
       </div>
       <Me/>
     </div>

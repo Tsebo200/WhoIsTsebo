@@ -1,15 +1,22 @@
-import React from 'react';
-import styles from '../Pages/Gallery.module.scss';
+// import React from 'react';
+// import styles from '../Pages/Gallery.module.scss';
 
-function Gallery() {
-  return (
-    <div>
-<div id="Gallery"></div>
-<div className={styles.mainContainer}>Hello World</div>
+// function Gallery() {
+//   return (
+//     <div>
+// <div id="Gallery"></div>
+// <div className={styles.spacer}></div>
 
-</div>
 
-  )
-}
+// <div className={styles.mainContainer}>
+// <p className={styles.font}>Gallery</p>
+// <hr className={styles.horLine}></hr>
+// </div>
 
-export default Gallery
+
+// </div>
+
+//   )
+// }
+
+// export default Gallery
