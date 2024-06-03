@@ -1,20 +1,19 @@
 @import '../../Scss/Style.scss';
 
-.logo{
+.me{
     width: 80px;
     height: 80px;
     border-radius: 360px;
     background: #001818;
-    background-image: url('../../Assets/Essentials/Logo.png');
+    background-image: url('../../Assets/Me/Tsebo.png');
     background-position: center;
-    background-size: contain;
+    background-size: cover;
     margin-top: 0px;
-    margin-left: -100px;
     float: left;
     z-index: 3;
 }
 
-.logo:hover{
-    background-image: url('../../Assets/Essentials/Logo_Hover.png');
+.me:hover{
+    background-image: url('../../Assets/Me/TseboHover.jpg');
     // background-image: url('../../Assets/Essentials/Logo_hover2.png');
 }
