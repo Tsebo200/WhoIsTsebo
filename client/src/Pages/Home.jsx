@@ -8,7 +8,6 @@ import Gallery from "./Gallery";
 function Home() {
   return (
     <div>
-      <div id="home"></div>
       <NavBar />
       <Logo/>
       <Header/>
