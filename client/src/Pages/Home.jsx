@@ -1,17 +1,17 @@
 import React from "react";
 import styles from "../Pages/Home.module.scss";
-import NavBar from "../Component/NavBar/NavBar";
-import Logo from "../Component/Logo/Logo";
-import Header from "../Component/Header/Header";
-import Gallery from "./Gallery";
+// import NavBar from "../Component/NavBar/NavBar";
+// import Logo from "../Component/Logo/Logo";
+// import Header from "../Component/Header/Header";
+// import Gallery from "./Gallery";
 
 function Home() {
   return (
     <div>
-      <NavBar />
+      {/* <NavBar />
       <Logo/>
-      <Header/>
-      <Gallery/>
+      <Header/> */}
+      {/* <Gallery/> */}
       <div className={styles.text}>Hello World</div>
     </div>
   );
