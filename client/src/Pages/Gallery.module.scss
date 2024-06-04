@@ -1,1 +1,94 @@
 @import '../Scss/Style.scss';
+
+.headingContainer{
+    width: 1440px;
+    height: 140px;
+    margin-top: 30px;
+    background-color: blue;
+    float: left;
+}
+
+.heading{
+    margin-top: 30px;
+    font-size: 70px;
+    margin-left: 160px;
+    color: $Tertiary;
+    float: left;
+}
+
+.horLine{
+    width: 1075px;
+    height: 5px;
+    margin-top: 85px;
+    margin-left: -290px;
+    border-radius: 360px;
+    background: $Tertiary;
+    float: left;
+}
+
+.contentContainer{
+    width: 1440px;
+    height: 560px;
+    background-color: rgb(55, 50, 50);
+    float: left;
+}
+.introText{
+    text-align: center;
+    font-family: avenir;
+    font-size: 20px;
+}
+
+.imgOne{
+    width: 315px;
+    height: 440px;
+    margin-left: 169px;
+    background: black;
+    float: left;
+}
+
+.imgTwo{
+    width: 315px;
+    height: 440px;
+    margin-left: 74px;
+    background: black;
+    float: left;
+}
+
+.imgThree{
+    width: 315px;
+    height: 440px;
+    margin-left: 74px;
+    background: black;
+    float: left;
+}
+
+.chevronContainer{
+    width: 1440px;
+    height: 30px;
+    background: yellow;
+    float: left;
+}
+
+.chevronSectionOne{
+    width: 213px;
+    height: 31px;
+    margin-left: 214px;
+    background: red;
+    float: left;
+}
+.chevronSectionTwo{
+    width: 213px;
+    height: 31px;
+    margin-left: 180px;
+    background: red;
+    float: left;
+}
+
+.chevronSectionThree{
+    width: 213px;
+    height: 31px;
+    margin-top: -32px;
+    margin-left: 995px;
+    background: red;
+    float: left;
+}
