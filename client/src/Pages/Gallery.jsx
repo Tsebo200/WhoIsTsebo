@@ -3,14 +3,16 @@ import Logo from "../Components/Logo/Logo";
 import styles from "../Pages/Gallery.module.scss";
 import NavBar from "../Components/NavBar/NavBar";
 import Example from "../Components/Example/Example";
+import Me from "../Components/Me/Me";
 
 function Gallery() {
 
 
   return (
     <>
-      <NavBar />
-      <Logo />
+      <NavBar/>
+      <Logo/>
+      <Me/>
       <div className={styles.headingContainer}>
         <p className={styles.heading}>Gallery</p>
         <hr className={styles.horLine}></hr>

@@ -8,9 +8,11 @@
     background-image: url('../../Assets/Essentials/Logo.png');
     background-position: center;
     background-size: contain;
+    position: absolute;
     margin-top: -40px;
     margin-left: 50px;
     float: left;
+    // z-index: 0;
 }
 
 .logo:hover{

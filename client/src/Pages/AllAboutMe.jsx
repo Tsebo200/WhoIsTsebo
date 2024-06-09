@@ -1,15 +1,18 @@
-import React from 'react';
-import styles from '../Pages/Test.module.scss';
+import React from 'react'
+import NavBar from '../Components/NavBar/NavBar'
+import Logo from '../Components/Logo/Logo'
+import Me from '../Components/Me/Me';
+import AllAboutMeContent from '../Components/AllAboutMeContent/Heading';
 
-function allAboutMe() {
+function AllAboutMe() {
   return (
-    // NavBar />
-    // <Logo />
-    <div className={styles.headingContainer}>
-      <p className={styles.heading}>Gallery</p>
-      <hr className={styles.horLine}></hr>
+    <div>
+      <NavBar/>
+      <Logo/>
+      <Me/>
+      <AllAboutMeContent/>
     </div>
   )
 }
 
-export default allAboutMe
+export default AllAboutMe

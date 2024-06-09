@@ -1,0 +1,42 @@
+@import '../../Scss/Style.scss';
+
+
+
+@font-face {
+    font-family: "Beyno";
+    src: url("../../fonts/BEYNO.ttf");
+  }
+
+  body {
+    font-family: "Beyno", sans-serif;
+    width: 1440px;
+    height: 100vh;
+    float: left;
+    background-color: $Primary;
+}
+  
+.headingContainer{
+    width: 1440px;
+    height: 140px;
+    margin-top: 30px;
+    background-color: blue;
+    float: right;
+}
+
+.heading{
+    margin-top: 30px;
+    font-size: 70px;
+    margin-left: 160px;
+    color: $Tertiary;
+    float: right;
+}
+
+.horLine{
+    width: 1075px;
+    height: 5px;
+    margin-top: -85px;
+    margin-left: -290px;
+    border-radius: 360px;
+    background: $Tertiary;
+    float: right;
+}
