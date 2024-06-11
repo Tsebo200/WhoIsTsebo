@@ -5,15 +5,16 @@ import Logo from "../Components/Logo/Logo";
 import Header from "../Components/Header/Header";
 import Me from "../Components/Me/Me.jsx";
 import Gallery from "./Gallery";
+import Footer from "../Components/Footer/Footer.jsx";
 
 function Home() {
   return (
     <div>
     <NavBar/>
-      <Logo/>
-      <Me/>
+    <Logo/>
+    <Me/>
     <Header/> 
-    <Gallery/> 
+    <Footer/> 
       {/* <div className={styles.text}>Hello World</div> */}
     </div>
   );
