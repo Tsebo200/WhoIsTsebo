@@ -2,7 +2,8 @@ import React from 'react'
 import NavBar from '../Components/NavBar/NavBar'
 import Logo from '../Components/Logo/Logo'
 import Me from '../Components/Me/Me';
-import AllAboutMeContent from '../Components/AllAboutMeContent/Heading';
+import CompleteAAMC from '../Components/AllAboutMeContent/CompleteAAMC';
+import Footer from '../Components/Footer/Footer';
 
 function AllAboutMe() {
   return (
@@ -10,7 +11,8 @@ function AllAboutMe() {
       <NavBar/>
       <Logo/>
       <Me/>
-      <AllAboutMeContent/>
+      <CompleteAAMC/>
+      <Footer/>
     </div>
   )
 }

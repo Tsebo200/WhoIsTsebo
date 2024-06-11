@@ -1,7 +1,5 @@
 @import '../../Scss/Style.scss';
 
-
-
 @font-face {
     font-family: "Beyno";
     src: url("../../fonts/BEYNO.ttf");
@@ -19,24 +17,36 @@
     width: 1440px;
     height: 140px;
     margin-top: 30px;
-    background-color: blue;
-    float: right;
+    margin-left: 160px;
+    // background-color: blue;
+    float: left;
 }
 
 .heading{
     margin-top: 30px;
     font-size: 70px;
-    margin-left: 160px;
+    margin-left: 880px;
     color: $Tertiary;
-    float: right;
+    float: left;
 }
 
 .horLine{
-    width: 1075px;
+    width: 1300px;
     height: 5px;
-    margin-top: -85px;
-    margin-left: -290px;
+    margin-top: -80px;
+    margin-left: 110px;
     border-radius: 360px;
     background: $Tertiary;
-    float: right;
+    float: left;
 }
+
+
+// .horLine{
+//     width: 1075px;
+//     height: 5px;
+//     margin-top: -85px;
+//     margin-left: -290px;
+//     border-radius: 360px;
+//     background: $Tertiary;
+//     float: right;
+// }
