@@ -25,15 +25,15 @@ function Intro() {
             </p>
           </div>
         </div>
-
+        {/* <div className={styles.AllTextContainers}> */}
         <div className={styles.findMeContainer}>
 
           <div className={styles.magnifyingBox}></div>
           <p className={styles.findMeText}>
             Find Out More ABout Me
           </p>
-
-        </div>
+          </div>
+        {/* </div> */}
 
         
       </div>

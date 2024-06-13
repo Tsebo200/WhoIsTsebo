@@ -66,19 +66,10 @@
     float: left;
 }
 
-.findMeContainer{
-    width: 400px;
-    height: 90px;
-    margin-top: 30px;
-    margin-left: 55px;
-    background: red;
-    float: left;
-}
-
 .magnifyingBox{
     width: 50px;
     height: 50px;
-    margin-top: 20px;
+    margin-top: 15px;
     margin-left: 30px;
     // background: blue;
     background-image: url('../../Assets/Icons/Magnifer.png');
@@ -91,7 +82,26 @@
     text-align: center;
     font-family: avenir;
     margin-left: 30px;
-    margin-top: 30px;
-    color: white;
+    margin-top: 25px;
+    color: $Dark;
     float: left;
 }
+
+.findMeContainer{
+    width: 400px;
+    height: 75px;
+    margin-top: 35px;
+    margin-left: 55px;
+    border-radius: 10px;
+    background: red;
+    background: $Tertiary;
+    float: left;
+}
+
+
+
+// .AllTextContainers{
+//     width: 50px;
+//     height: 100px;
+//     background: red;
+// }
