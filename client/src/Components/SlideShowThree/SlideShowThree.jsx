@@ -2,12 +2,12 @@ import React from 'react'
 
 import { Slide } from "react-slideshow-image";
 
-import slideImages from "./data/images";
+import slideImages from "./data/images.jsx";
 
 import "react-slideshow-image/dist/styles.css";
 import styles from "./SliderShow.module.scss";
 
-export default function SlideShow() {
+export default function SlideShowTwo() {
   return (
     <div className={styles.container}>
       <Slide easing="ease">

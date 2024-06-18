@@ -32,7 +32,7 @@
     width: 1440px;
     height: 560px;
     margin-left: 170px;
-    background-color: rgb(55, 50, 50);
+    // background-color: rgb(55, 50, 50);
     float: left;
 }
 .introText{
@@ -46,9 +46,9 @@
     width: 315px;
     height: 440px;
     margin-left: 169px;
-    border-radius: 15px;
-    background: black;
-    background-image: url('../Assets/Dates/arcade.png');
+    border-radius: 35px;
+    // background: black;
+    // background-image: url('../Assets/Dates/arcade.png');
     background-position: center;
     background-size: cover;
     float: left;
@@ -60,7 +60,7 @@
     margin-left: 74px;
     border-radius: 15px;
     background: $Primary;
-    background-image: url('../Assets/Kicks/kicks1.png');
+    // background-image: url('../Assets/Kicks/kicks1.png');
     background-position: center;
     background-size: cover;
     float: left;
@@ -72,7 +72,7 @@
     margin-left: 74px;
     // background: black;
     // background: $Primary;
-    background-image: url('../Assets/Series/strangerThings.png');
+    // background-image: url('../Assets/Series/strangerThings.png');
     background-position: center;
     background-size: contain;
     background-repeat: no-repeat;
@@ -83,30 +83,38 @@
     width: 1440px;
     height: 30px;
     margin-top: 15px;
-    background:yellow;
+    // background:yellow;
     float: left;
 }
 
-.chevronSectionOne{
+.detailOne{
     width: 213px;
     height: 31px;
-    margin-left: 214px;
-    background: red;
+    margin-left: 250px;
+    font-size: 20px;
+    margin-top: 10px;
+    color: $Tertiary;
+    // background: red;
     float: left;
 }
-.chevronSectionTwo{
+.detailTwo{
     width: 213px;
     height: 31px;
+    font-size: 20px;
     margin-left: 180px;
-    background: red;
+    margin-top: 10px;
+    color: $Tertiary;
+    // background: red;
     float: left;
 }
 
-.chevronSectionThree{
+.detailThree{
     width: 213px;
     height: 31px;
-    margin-top: -32px;
-    margin-left: 995px;
-    background: red;
+    font-size: 20px;
+    margin-top: -52px;
+    margin-left: 1020px;
+    color: $Tertiary;
+    // background: red;
     float: left;
 }

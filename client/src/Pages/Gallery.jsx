@@ -5,6 +5,9 @@ import NavBar from "../Components/NavBar/NavBar";
 // import Example from "../Components/Example/Example";
 import Me from "../Components/Me/Me";
 import SlideShow from "../Components/SlideShow/SlideShow";
+import SlideShowTwo from "../Components/SlideShowTwo/SlideShowTwo";
+import SlideShowThree from "../Components/SlideShowThree/SlideShowThree";
+
 
 function Gallery() {
 
@@ -22,21 +25,34 @@ function Gallery() {
 
 
       <div className={styles.contentContainer}>
-        <p className={styles.introText}>Feel Free To Hover For More Info</p>
+        <p className={styles.introText}>Dream Dates, Shoe WishList, Fav Series</p>
+           {/* <SlideShow/> */}
         {/* <Example/> */}
-      <SlideShow/>
+   
 
-{/* 
-        <div className={styles.imgOne}></div>
-        <div className={styles.imgTwo}></div>
-        <div className={styles.imgThree}></div>
+
+        <div className={styles.imgOne}>
+        <SlideShow/>
+        </div>
+        <div className={styles.imgTwo}>
+
+        <SlideShowTwo/>
+        </div>
+        <div className={styles.imgThree}>
+        <SlideShowThree/>
+        </div>
         <div className={styles.chevronContainer}>
-          <div className={styles.chevronSectionOne}>
-            
-          </div>
-          <div className={styles.chevronSectionTwo}></div>
-          <div className={styles.chevronSectionThree}></div>
-        </div> */}
+
+          <p className={styles.detailOne}>
+            Dream Dates
+          </p>
+          <p className={styles.detailTwo}>
+            Shoe WishList
+          </p>
+          <p className={styles.detailThree}>
+            Favourite Series
+          </p>
+        </div>
       </div>
     </>
   );

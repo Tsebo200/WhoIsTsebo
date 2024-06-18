@@ -1,0 +1,15 @@
+export default [
+    "https://media.discordapp.net/attachments/1051908014111740036/1252681477586550804/strangerThings.png?ex=66731a09&is=6671c889&hm=4e85c8a7af499b73a89ae241eca20dab2354796c5575cd320e6d4bbc94c3be3c&=&format=webp&quality=lossless&width=768&height=1136",
+   "https://media.discordapp.net/attachments/1051908014111740036/1252681476831711363/onMyBlock.png?ex=66731a09&is=6671c889&hm=0c6ef0fdd90dd27195a17ea91b3a762b490a2bc8714126d7e977c1186a3d70a6&=&format=webp&quality=lossless&width=768&height=1136",
+   "https://media.discordapp.net/attachments/1051908014111740036/1252681474100957245/7ds.png?ex=66731a09&is=6671c889&hm=0894f330b4666b2d398d2d6485095f698a56b9eccb4311350765eef6b15199cd&=&format=webp&quality=lossless&width=768&height=1136",
+   "https://media.discordapp.net/attachments/1051908014111740036/1252681474767847494/americanVandal.png?ex=66731a09&is=6671c889&hm=ee4dd818a338afba9b992fbcf8df87c75a929801f00b055d2406808b4f7fa14b&=&format=webp&quality=lossless&width=768&height=1136",
+   "https://media.discordapp.net/attachments/1051908014111740036/1252681476395499581/lockKey.png?ex=66731a09&is=6671c889&hm=859f2c934aaaf747761ea05fd90477d99630271b6387a626a2d1f59f5465c2c2&=&format=webp&quality=lossless&width=768&height=1136",
+   "https://media.discordapp.net/attachments/1051908014111740036/1252681475229487145/archer.png?ex=66731a09&is=6671c889&hm=b5d4cba6ebd3b829bc81449aa8b1de07bd0c760c526bca0a0406794dd1ca2d4f&=&format=webp&quality=lossless&width=768&height=1136",
+   "https://media.discordapp.net/attachments/1051908014111740036/1252681474440826900/akameGaKill.png?ex=66731a09&is=6671c889&hm=823bb66f84c5b9ff88608e9436281bb60b26634e68e606dbb1258a4364fb1ee9&=&format=webp&quality=lossless&width=768&height=1136",
+   "https://media.discordapp.net/attachments/1051908014111740036/1252681476047245453/jackHorseman.png?ex=66731a09&is=6671c889&hm=f2085378bb89afc236aa978a76557540d0b135cb445dee3f60f34bf6dba19b93&=&format=webp&quality=lossless&width=768&height=1136",
+   "https://media.discordapp.net/attachments/1051908014111740036/1252681475690594446/finalSpace.png?ex=66731a09&is=6671c889&hm=a02d7d5146e9a81ca172512d09b3da0d364968ba8a1d349a9a75a10eb5291795&=&format=webp&quality=lossless&width=768&height=1136",
+   "https://media.discordapp.net/attachments/1051908014111740036/1252681477213126767/rickMorty.png?ex=66731a09&is=6671c889&hm=b89c19312244cb8aaebf5d46be3bda6b6eb4fededb2c41db597cc41b26f1f857&=&format=webp&quality=lossless&width=768&height=1136",
+   "https://media.discordapp.net/attachments/1051908014111740036/1252681488491614279/haikyuu.png?ex=66731a0c&is=6671c88c&hm=ae646b8514ffe77d3a11d126af713a016829600e2724269b7f6315626b006542&=&format=webp&quality=lossless&width=768&height=1136",
+   "https://media.discordapp.net/attachments/1051908014111740036/1252681488819028131/moneyHeist.png?ex=66731a0c&is=6671c88c&hm=0ad4dc2677726f84f8c889426c6aec9435c828ba0f4187f6bd9f179d62caf407&=&format=webp&quality=lossless&width=768&height=1136",
+    ];
+    
