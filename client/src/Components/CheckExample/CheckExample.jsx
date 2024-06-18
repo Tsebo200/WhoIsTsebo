@@ -1,11 +1,11 @@
 import Form from 'react-bootstrap/Form';
-
+import styles from '../CheckExample/CheckExample.module.scss'
 
 function CheckExample() {
   return (
     <Form>
       {['checkbox'].map((type) => (
-        <div key={`default-${type}`} className="mb-3">
+        <div key={`default-${type}`} className={styles.checkbox}>
           <Form.Check // prettier-ignore
             type={type}
             id={`default-${type}`}
