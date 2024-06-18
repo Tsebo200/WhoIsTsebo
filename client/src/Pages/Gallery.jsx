@@ -2,8 +2,9 @@ import React from "react";
 import Logo from "../Components/Logo/Logo";
 import styles from "../Pages/Gallery.module.scss";
 import NavBar from "../Components/NavBar/NavBar";
-import Example from "../Components/Example/Example";
+// import Example from "../Components/Example/Example";
 import Me from "../Components/Me/Me";
+import SlideShow from "../Components/SlideShow/SlideShow";
 
 function Gallery() {
 
@@ -22,7 +23,9 @@ function Gallery() {
 
       <div className={styles.contentContainer}>
         <p className={styles.introText}>Feel Free To Hover For More Info</p>
-        <Example/>
+        {/* <Example/> */}
+      <SlideShow/>
+
 {/* 
         <div className={styles.imgOne}></div>
         <div className={styles.imgTwo}></div>
