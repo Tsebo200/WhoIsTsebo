@@ -7,7 +7,7 @@ import Me from "../Components/Me/Me";
 import SlideShow from "../Components/SlideShow/SlideShow";
 import SlideShowTwo from "../Components/SlideShowTwo/SlideShowTwo";
 import SlideShowThree from "../Components/SlideShowThree/SlideShowThree";
-
+import Footer from "../Components/FooterGallery/Footer";
 
 function Gallery() {
 
@@ -25,7 +25,7 @@ function Gallery() {
 
 
       <div className={styles.contentContainer}>
-        <p className={styles.introText}>Dream Dates, Shoe WishList, Fav Series</p>
+        <p className={styles.introText}>Interesting Facts About Tsebo</p>
            {/* <SlideShow/> */}
         {/* <Example/> */}
    
@@ -53,7 +53,9 @@ function Gallery() {
             Favourite Series
           </p>
         </div>
+   
       </div>
+      <Footer/>
     </>
   );
 }

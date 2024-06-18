@@ -3,7 +3,9 @@ import NavBar from '../Components/NavBar/NavBar'
 import Logo from '../Components/Logo/Logo'
 import Me from '../Components/Me/Me';
 import CompleteAAMC from '../Components/AllAboutMeContent/CompleteAAMC';
-import Footer from '../Components/Footer/Footer';
+// import Footer from '../Components/Footer/Footer';
+import Footer from '../Components/FooterAllAboutMe/Footer';
+
 
 function AllAboutMe() {
   return (
