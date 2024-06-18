@@ -1,5 +1,6 @@
 import React from "react";
-import styles from "../AllText/BabyText.module.scss";
+import styles from "./BabyText.module.scss";
+import TestSection from "./TestSection";
 
 function BabyTest() {
   return (
@@ -24,8 +25,10 @@ function BabyTest() {
             </p>
         </div>
 
-        <div className={styles.teamsContainer}></div>
-
+        <div className={styles.teamsContainer}>
+          <TestSection/>
+        </div>
+     
       </div>
 
       {/* <div className={styles.mainContainer}>

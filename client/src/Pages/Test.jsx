@@ -3,8 +3,8 @@ import styles from '../Pages/Test.module.scss';
 import NavBar from "../Components/NavBar/NavBar";
 import Logo from "../Components/Logo/Logo";
 import Me from "../Components/Me/Me";
-import BabyTest from '../Components/AllText/BabyTest';
-import Footer from "../Components/Footer/Footer.jsx";
+import BabyTest from '../Components/AllTest/BabyTest';
+import Footer from '../Components/FooterTest/Footer';
 
 function Test() {
   return (
