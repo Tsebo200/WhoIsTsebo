@@ -1,7 +1,7 @@
 @import '../../Scss/Style.scss';
 
 .header{
-width: 100vw;
+width: 1800px;
 height: 10vh;
 margin-top: 40px;
 background: #2B4447;
@@ -34,10 +34,11 @@ a:hover{
 }
 
 .links_container{
-    width: 50vw;
+    width: 800px;
     height: 5vh;
     // background: red;
-    margin-top: 15px;
+    margin-top: 30px;
+    margin-left: 30px;
     order: 0;
     flex: 0 1 auto;
     align-self: center;

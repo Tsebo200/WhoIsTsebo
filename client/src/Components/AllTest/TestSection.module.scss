@@ -68,17 +68,19 @@ body {
 }
 
 .checkbox{
-    width: 45px;
-    height: 45px;
-    margin-left: 5px;
-    margin-top: 5px;
-    background: red;
+    width: 30px;
+    height: 30px;
+    margin-left: 10px;
+    margin-top: 10px;
+    border-color: $Secondary;
+    border-radius: 10px;
+    border-style: solid;
     float: left;
 }
 
 .teamText{
     margin-left: 67px;
-    margin-top: 17px;
+    margin-top: 15px;
     font-family: avenir;
     font-size: 20px;
     color: $Primary;
